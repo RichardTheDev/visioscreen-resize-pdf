@@ -20,7 +20,7 @@ def create_download_zip(images, prefix="pages"):
     return zip_buffer
 
 def main():
-    st.title("Convertisseur PDF en PNG et redimensionnement")
+    st.title("Redimensionnement de PDF")
     st.subheader("By Visioscreen")
 
     uploaded_pdfs = st.file_uploader("Téléchargez un ou plusieurs fichiers PDF", type="pdf", accept_multiple_files=True)
